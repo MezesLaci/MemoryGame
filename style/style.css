@@ -19,7 +19,7 @@ h1{
 .cella{
     width: 100px;
     height: 100px;
-    background-color: yellow;
+    background-color: rgb(119, 233, 115);
     border: 1px solid black;
     background-size: cover;
 }

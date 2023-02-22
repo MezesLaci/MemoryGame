@@ -1,5 +1,5 @@
-const oszlop = 2;
-const sor = 2;
+const oszlop = 11;
+const sor = 4;
 
 
 function visszaFordit(){
@@ -24,7 +24,7 @@ if (nyitott.length<2){
     this.style.backgroundImage=this.dataset.bgimg;
     if(nyitott.length==2)
     {
-       let idozito = setTimeout(function(){visszaFordit();},2000);
+       let idozito = setTimeout(function(){visszaFordit();},1000);
 
        if(nyitott[0].dataset.bgimg==nyitott[1].dataset.bgimg)
        {
@@ -40,7 +40,7 @@ if (nyitott.length<2){
 
             if(document.getElementsByClassName('kitalalva').length==(oszlop*sor)){
                 console.log("Győzött!")
-                document.getElementById('uzenet').innerHTML="Te egy győztes vagy! <br> Rád moslygott a nap! <br> Új játékhoz nyomj F5-öt!"
+                document.getElementById('uzenet').innerHTML="Te egy győztes vagy! <br> Rád mosolygott a nap! <br> Új játékhoz nyomj F5-öt!"
             }
        }
     }
